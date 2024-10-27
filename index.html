@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kingsukh Guest House</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <h1>Kingsukh</h1>
+                <span class="subtitle">GUEST HOUSE</span>
+            </div>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                </ul>
+            </nav>
+           
+
+            <button class="book-now-button fade-in desktop-only" onclick="window.location.href='https://api.whatsapp.com/send?phone=919007062180';">BOOK NOW</button>
+
+            <!-- Show on mobile, hide on desktop -->
+            <button class="menu-toggle mobile-only" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+    
+    <nav class="mobile-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2 class="fade-in">Welcome to Luxury Living</h2>
+                <p class="fade-in">Experience unparalleled comfort in our exclusive guest house</p>
+                <button class="cta-button fade-in" onclick="window.location.href='https://api.whatsapp.com/send?phone=919007062180';">Reserve Now</button>
+
+            </div>
+        </section>
+        <section id="about" class="about">
+          <div class="about-container">
+              <div class="about-image">
+                
+                  <img src="assets/out.jpg" alt="About Us Image">
+              </div>
+              <div class="about-content">
+                  <h2 class="fade-in">ABOUT US</h2>
+                  <p class="tagline fade-in">The Best Holidays Start Here!</p>
+                  <p class="description fade-in">Embark on a tranquil journey at our Kingsukh Guest House, enveloped by the scenic allure of Biharinath Hill, Baranti Hill, Susunia Hill, Joychandi Hill, Garhpanchkot, Baranti Dam, Maithon Dam, and the captivating Panchat Dam. Revel in the embrace of comfort, relish delightful meals, and unwind in our verdant garden oasis. Your ideal retreat beckons, promising a harmonious blend of nature's beauty and heartfelt hospitality. Explore the hidden gems of Purulia, creating memories that linger long after your stay.</p>
+                  <div class="contact-info fade-in">
+                      <p>Address: Beside Barshal Water Tank, Manpur, Barhanti, West Bengal 723156</p>
+                      <p>Contact us: +91 9007062180</p>
+                  </div>
+                  <button class="book-button fade-in" onclick="window.location.href='https://api.whatsapp.com/send?phone=919007062180';">BOOK NOW</button>
+
+              </div>
+          </div>
+      </section>
+      <section id="rooms" class="rooms">
+        <div class="rooms-container">
+            <h2 class="section-title fade-in">OUR LIVING ROOM</h2>
+            <p class="section-subtitle fade-in">The Most Memorable Rest Time Starts Here.</p>
+            
+            <div class="room-cards">
+                <div class="room-card fade-in">
+                    <div class="room-image">
+                        <img src="assets/small.jpg" alt="Cozy Haven Room">
+                    </div>
+                    <div class="room-info">
+                        <h3>Cozy Haven Room</h3>
+                        <p>Escape to comfort in our Cozy Haven Room, a snug retreat designed for intimate relaxation.</p>
+                        <p class="room-price">Starting from Rs. 1000/night</p>
+                        <button class="book-button" onclick="window.location.href='https://api.whatsapp.com/send?phone=919007062180';">BOOK NOW</button>
+
+                    </div>
+                </div>
+                
+                <div class="room-card fade-in">
+                    <div class="room-image">
+                        <img src="assets/large.jpg" alt="Spacious Serenity Suite">
+                    </div>
+                    <div class="room-info">
+                        <h3>Spacious Serenity Suite</h3>
+                        <p>Indulge in luxury and ample space in our Spacious Serenity Suite, where tranquility meets roomy elegance.</p>
+                        <p class="room-price">Starting from Rs. 1500/night</p>
+                        <button class="book-button" onclick="window.location.href='https://api.whatsapp.com/send?phone=919007062180';">BOOK NOW</button>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="services-container">
+            <h2 class="section-title fade-in">SERVICES</h2>
+            <p class="section-subtitle fade-in">Strive Only For The Best.</p>
+            
+            <div class="service-cards">
+                <div class="service-card fade-in">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>High Class Security</h3>
+                    <p>Your safety is our top priority. Rest easy with our state-of-the-art security systems.</p>
+                </div>
+                
+                <div class="service-card fade-in">
+                    <i class="fas fa-concierge-bell"></i>
+                    <h3>24 Hours Room Service</h3>
+                    <p>Indulge in convenience with our round-the-clock room service, catering to your every need.</p>
+                </div>
+                
+                <div class="service-card fade-in">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Restaurant</h3>
+                    <p>Savor exquisite culinary delights at our in-house restaurant, offering a diverse menu to please every palate.</p>
+                </div>
+                
+                <div class="service-card fade-in">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>Tourist Guide Support</h3>
+                    <p>Explore with confidence, guided by our experienced local experts who bring the destination to life.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="gallery">
+        <div class="gallery-container">
+            <h2 class="section-title fade-in">Our Luxury Gallery</h2>
+            <p class="section-subtitle fade-in">Immerse yourself in the opulence of our accommodations</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item fade-in" data-aos="zoom-in">
+                    <img src="assets/out.jpg" alt="Luxury Room 1">
+                   
+                </div>
+                <div class="gallery-item fade-in" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="assets/ayodhya.jpg" alt="Luxury Room 1">
+                   
+                </div>
+                <div class="gallery-item fade-in" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="assets/large.jpg" alt="Luxury Room 3">
+                    <div class="overlay">
+                       
+                    </div>
+                </div>
+                <div class="gallery-item fade-in" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="assets/palash.webp" alt="Luxury Room 4">
+                    
+                </div>
+                <div class="gallery-item fade-in" data-aos="zoom-in" data-aos-delay="400">
+                    <img src="assets/small.jpg" alt="Luxury Room 5">
+                   
+                </div>
+                <div class="gallery-item fade-in" data-aos="zoom-in" data-aos-delay="500">
+                    <img src="assets/room1.jpg" alt="Luxury Room 6">
+                    
+                </div>
+                <div class="gallery-item fade-in" data-aos="zoom-in" data-aos-delay="600">
+                    <img src="assets/recep.jpg" alt="Luxury Room 7">
+                   
+                </div>
+                <div class="gallery-item fade-in" data-aos="zoom-in" data-aos-delay="700">
+                    <img src="assets/flower.jpg" alt="Luxury Room 8">
+                   
+                </div>
+                <div class="gallery-item wide fade-in" data-aos="zoom-in" data-aos-delay="800">
+                    <img src="assets/baranti.webp" alt="Luxury Room 9">
+                   
+                </div>
+                <div class="gallery-item wide fade-in" data-aos="zoom-in" data-aos-delay="900">
+                    <img src="assets/mithonDam.webp" alt="Luxury Room 10">
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+          <div class="contact-wrapper">
+            <div class="contact-info">
+              <h2 class="section-title">Contact Us</h2>
+              <p class="section-subtitle">We'd love to hear from you</p>
+              <ul class="info-list">
+                <li>
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div>
+                    <h3>Address</h3>
+                    <p>Beside Barshal Water Tank, Manpur, Barhanti, West Bengal 723156</p>
+                  </div>
+                </li>
+                <li>
+                  <i class="fas fa-phone-alt"></i>
+                  <div>
+                    <h3>Phone</h3>
+                    <p><a href="tel:+919007062180">+91 9007062180</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="fas fa-envelope"></i>
+                  <div>
+                    <h3>Email</h3>
+                    <p><a href="mailto:kkghosh0099@gmail.com">kkghosh0099@gmail.com</a></p>
+                  </div>
+                </li>
+              </ul>
+              <ul class="social-icons">
+                <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/kingsukhguesthouse/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+            <div class="contact-form">
+              <h2 class="form-title">Send us a message</h2>
+              <form id="contact-form">
+                <div class="input-group">
+                  <input type="text" id="name" name="name" required>
+                  <label for="name">Your Name</label>
+                  <span class="input-highlight"></span>
+                </div>
+                <div class="input-group">
+                  <input type="email" id="email" name="email" required>
+                  <label for="email">Your Email</label>
+                  <span class="input-highlight"></span>
+                </div>
+                <div class="input-group">
+                  <input type="tel" id="phone" name="phone" required>
+                  <label for="phone">Your Phone</label>
+                  <span class="input-highlight"></span>
+                </div>
+                <div class="input-group">
+                  <textarea id="message" name="message" rows="5" required></textarea>
+                  <label for="message">Your Message</label>
+                  <span class="input-highlight"></span>
+                </div>
+                <button type="submit" class="submit-btn">
+                  <span class="btn-text">Send Message</span>
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="map-section">
+        <div class="map-wrapper">
+            <h2 class="section-title">Find Us Here</h2>
+            <p class="section-subtitle">Visit us at our beautiful location</p>
+            <div class="map-container">
+                <!-- Loading overlay -->
+                <div class="map-loading" id="mapLoading">
+                    <div class="location-marker"></div>
+                </div>
+                <!-- Google Maps iframe -->
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.5017351225647!2d86.85721547510981!3d23.586332378782714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6e3fdd3ff9ebb%3A0x517a57e3f93c1807!2sKingsukh%20Guest%20House!5e0!3m2!1sen!2sin!4v1705088034844!5m2!1sen!2sin" 
+                    width="100%" 
+                    height="400" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    onload="document.getElementById('mapLoading').classList.add('hidden')"
+                ></iframe>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <!-- Brand Section -->
+                <div class="footer-brand">
+                    <h2>Kingsukh Guest House</h2>
+                    <p>Discover a world of comfort, luxury, and adventure as you explore our curated selection of hotels, making every moment of your getaway truly extraordinary.</p>
+                    <a href="https://api.whatsapp.com/send?phone=919007062180" class="footer-cta">BOOK NOW</a>
+
+                </div>
+    
+                <!-- Quick Links -->
+                <div class="footer-column">
+                    <h3>QUICK LINKS</h3>
+                    <ul>
+                        <li><a href="#destinations">Browse Destinations</a></li>
+                        <li><a href="#offers">Special Offers & Packages</a></li>
+                        <li><a href="#rooms">Room Types & Amenities</a></li>
+                        <li><a href="#reviews">Customer Reviews & Ratings</a></li>
+                        <li><a href="#guides">Travel Tips & Guides</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Services -->
+                <div class="footer-column">
+                    <h3>OUR SERVICES</h3>
+                    <ul>
+                        <li><a href="#concierge">Concierge Assistance</a></li>
+                        <li><a href="#booking">Flexible Booking Options</a></li>
+                        <li><a href="#transfer">Airport Transfers</a></li>
+                        <li><a href="#wellness">Wellness & Recreation</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Contact -->
+                <div class="footer-column">
+                    <h3>CONTACT US</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Beside Barshal Water Tank, Manpur, Barhanti, West Bengal 723156</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>kkghosh0099@gmail.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+91 9007062180</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>Copyright © 2024 Kingsukh Guest House. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.mobile-nav').classList.toggle('active');
+        });
+
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Intersection Observer for fade-in animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.fade-in, .room-card, .service-card').forEach((el) => observer.observe(el));
+        document.addEventListener('DOMContentLoaded', () => {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+            }
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+});
+document.addEventListener('DOMContentLoaded', () => {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+            }
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+});
+document.addEventListener('DOMContentLoaded', () => {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+            }
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+});
+document.addEventListener('DOMContentLoaded', () => {
+    AOS.init({
+        duration: 1000,
+        once: true,
+        offset: 100
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+            }
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+});
+document.addEventListener('DOMContentLoaded', function() {
+  const form = document.getElementById('contact-form');
+  
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    // Add your form submission logic here
+    alert('Form submitted successfully!');
+    form.reset();
+  });
+});
+document.querySelector('.menu-toggle').addEventListener('click', function() {
+    this.classList.toggle('active');
+    document.querySelector('.mobile-nav').classList.toggle('active');
+});
+
+// Close mobile menu when clicking a link
+document.querySelectorAll('.mobile-nav a').forEach(link => {
+    link.addEventListener('click', () => {
+        document.querySelector('.menu-toggle').classList.remove('active');
+        document.querySelector('.mobile-nav').classList.remove('active');
+    });
+});
+document.querySelector('.menu-toggle').addEventListener('click', function() {
+    this.classList.toggle('active');
+    document.querySelector('.mobile-nav').classList.toggle('active');
+});
+
+// Close mobile menu when clicking a link
+document.querySelectorAll('.mobile-nav a').forEach(link => {
+    link.addEventListener('click', () => {
+        document.querySelector('.menu-toggle').classList.remove('active');
+        document.querySelector('.mobile-nav').classList.remove('active');
+    });
+});
+document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const mobileNav = document.querySelector('.mobile-nav');
+    const body = document.body;
+
+    menuToggle.addEventListener('click', function() {
+        this.classList.toggle('active');
+        mobileNav.classList.toggle('active');
+        body.classList.toggle('menu-open');
+    });
+
+    // Close mobile menu when clicking a link
+    document.querySelectorAll('.mobile-nav a').forEach(link => {
+        link.addEventListener('click', () => {
+            menuToggle.classList.remove('active');
+            mobileNav.classList.remove('active');
+            body.classList.remove('menu-open');
+        });
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', function(event) {
+        if (mobileNav.classList.contains('active') && 
+            !mobileNav.contains(event.target) && 
+            !menuToggle.contains(event.target)) {
+            menuToggle.classList.remove('active');
+            mobileNav.classList.remove('active');
+            body.classList.remove('menu-open');
+        }
+    });
+});
+    </script>
+</body>
+</html>
